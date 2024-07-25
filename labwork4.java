@@ -1,9 +1,9 @@
 import java.util.*;
 public class labwork4{
     public static void main(String args[]){
-       /*  char x[]={'h','e','l','l','o'};
+         char x[]={'h','e','l','l','o'};
         String y=new String(x);
-        System.out.println(y);*/
+        System.out.println(y);
 
         System.out.println("1:Addition");
         System.out.println("2:Subraction");
