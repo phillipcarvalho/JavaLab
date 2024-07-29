@@ -1,6 +1,6 @@
 import java.util.*;
 public class labwork5{
-
+//Armstrong  number in a given range
     void isArmstrong(int n1){
         int sum=0;
         int x=n1;
@@ -25,6 +25,7 @@ public class labwork5{
         for(int i=beg;i<=end;i++){
             f.isArmstrong(i);
         }
+            //Printing a square
           for(int i=0;i<10;i++){
             if(i==0 || i==9){
                 String top="";
@@ -37,6 +38,7 @@ public class labwork5{
                 System.out.println("*\t\t\t     *");
             }
           }
+            //Finding lcm of two numbers
             int x;
             System.out.println("Enter the first number");
             int a=sc.nextInt();
