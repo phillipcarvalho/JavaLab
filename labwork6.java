@@ -2,8 +2,8 @@ import java.util.*;
  public class labwork6{
     public static void main(String args[]){
         
-        //StringBuffer sb=new StringBuffer("Hello");
-        /*sb.append(" Java");
+        StringBuffer sb=new StringBuffer("Hello");
+        sb.append(" Java");
         System.out.println(sb);
         sb.insert(1,"Java");
         System.out.println(sb);
@@ -22,10 +22,10 @@ import java.util.*;
         sb.ensureCapacity(10);
         System.out.println(sb.capacity());//34
         sb.ensureCapacity(50);
-        System.out.println(sb.capacity());//70 */
+        System.out.println(sb.capacity());//70 
 
         //String Builder
-       /* StringBuilder sb=new StringBuilder("Hello");
+        StringBuilder sb=new StringBuilder("Hello");
         StringBuilder sb2=new StringBuilder("Hello");
         StringBuilder sb3=new StringBuilder("Hello");
         StringBuilder sb4=new StringBuilder("Hello");
@@ -53,6 +53,7 @@ import java.util.*;
         System.out.println(sb1.capacity());*///70 
         
         //Java Program to find the third largest element in an array
+     
          Scanner sc=new Scanner(System.in);
         System.out.println("Enter size of array");
         int n=sc.nextInt();
